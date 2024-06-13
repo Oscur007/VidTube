@@ -4,7 +4,6 @@ import jsonwebtoken from "jsonwebtoken";
 import dotenv from "dotenv";
 
 dotenv.config();
-// import { JWT_SECRET } from "../middleware.js";
 
 const signup = async (req , res)=>{
     try

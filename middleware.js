@@ -1,5 +1,5 @@
-import jsonwebtoken from "jsonwebtoken";
 import dotenv from "dotenv";
+import jsonwebtoken from "jsonwebtoken";
 
 dotenv.config();
 
