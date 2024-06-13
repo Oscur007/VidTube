@@ -16,11 +16,11 @@
       },
       {
         "src": "/",
-        "dest": "build/index.html"
+        "dest": "view/index.html"
       },
       {
         "src": "/(.+)",
-        "dest": "build/$1"
+        "dest": "view/$1"
       }
     ]
 }
