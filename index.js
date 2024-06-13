@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 dotenv.config();
 
 const app = express();
-const port = process.env.PORt || 5000;
+const port = process.env.PORT || 5000;
 const databaseURL = process.env.DATABASE_URL;
 
 app.use(cors());
