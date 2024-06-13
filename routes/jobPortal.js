@@ -1,7 +1,7 @@
 import express from "express";
 import multer from "multer";
 import { getAvailableJobs , postJob , applyJob , getAppliedJobs , getPostedJobs , deletePostedJob , deleteAppliedJob , removeApplication } from "../controller/jobPortal.js";
-import fetchuser from "../middleware.js";
+import fetchuser from "../middlewares/middleware.js";
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });

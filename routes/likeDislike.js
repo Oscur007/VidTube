@@ -2,7 +2,7 @@ import express from "express";
 
 import { likedVideo , dislikedVideo , likedOrNot , allLikedVideos , removeLikedVideos } from "../controller/likeDislike.js";
 
-import fetchuser from "../middleware.js";
+import fetchuser from "../middlewares/middleware.js";
 
 const likeDislikeRouter=express.Router();
 likeDislikeRouter.get("/likedOrNot/:id" , fetchuser , likedOrNot)
